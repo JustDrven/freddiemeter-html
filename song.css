@@ -1,0 +1,31 @@
+html {
+    scroll-behavior: smooth;
+    background: black;
+    font-size: 62.5%;
+}
+
+body {
+    color: white;
+}
+
+* {
+    overflow-x: hidden;
+    font-family: 'Archivo Black', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#sapper {
+    min-height: 100%;
+}
+
+.songs video {
+    min-height: 100%;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
